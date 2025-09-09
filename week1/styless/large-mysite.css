@@ -31,7 +31,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 400px;
+        grid-template-columns: 1fr minmax(200px, 400px);
         gap: 20px;
         padding: 20px;
     }
@@ -156,9 +156,5 @@
         border-color: #0a2463;
     }
     /* -------------------------------footer------------------------------- */
-    footer {
-        font-size: 0.8rem; /* reduce el texto */
-        line-height: 1.2;  /* mejora la lectura */
-    }
    
 }

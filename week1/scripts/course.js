@@ -105,23 +105,22 @@ function displayCourses(list) {
   amountOfCourses.textContent = `Courses: ${list.length} • Credits: ${totalCredits}`;
 }
 
-// 4) Filtros (¡un solo manejador!)
+
 buttons.forEach(button => {
   button.addEventListener('click', () => {
-    // activo visual
+    
+
     buttons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 
-    const filter = button.getAttribute('data-filter'); // all | WDD | CSE
+    const filter = button.getAttribute('data-filter'); 
     const filtered = filter === 'all' ? courses : courses.filter(c => c.subject === filter);
 
-    // Debug opcional si algo falla:
-    // console.log({filter, filtered});
 
     displayCourses(filtered);
   });
 });
 
-// 5) Estado inicial
+
 document.querySelector('[data-filter="all"]').classList.add('active');
 displayCourses(courses);

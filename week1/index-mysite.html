@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="My personal website" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="My personal website">
+
     <meta author="Ivan A. Suarez">
     <title>My Site</title>
     <!--Style Sheets-->
     <link rel="stylesheet"  href="styless/base-mysite.css">
     <link rel="stylesheet" href="styless/large-mysite.css">
     <script src="scripts/hamMenu.js" defer></script>
-    <script src="scripts/course.js" defer></script>
-    <script src="scripts/date.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
-</head>
 <body>
     <header>
         <img src="images/robot.svg" alt="My Site Logo">
@@ -40,7 +37,7 @@
         </div>
         <div class="studentPicture">
             <h2 class="title">Student Photo</h2>
-            <img src="images/Fam-53.webp" alt="Family Photo" width="200" height="300">
+            <img src="images/Fam-53.jpeg" alt="Family Photo" width="200" height="300" loading="lazy">
         </div>
        <div class="courses">
             <h2 class="title">Web Certificate courses</h2>
@@ -54,9 +51,7 @@
             <ul id="courses-list"></ul>
             <h1 id="amountOfCourses"></h1>
             
-        </div>
-
-       
+        </div>   
     </main>
     <footer>
         <div class="logos">
@@ -70,4 +65,8 @@
         <p id="full"></p>
     </footer>
 </body>
+<script src="scripts/course.js" defer></script>
+<script src="scripts/date.js" defer></script>
+<script src="scripts/navigation.js" defer></script>
+</head>
 </html>
