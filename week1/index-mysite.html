@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="My personal website">
+    <meta author="Ivan A. Suarez">
+    <title>My Site</title>
+    <!--Style Sheets-->
+    <link rel="stylesheet"  href="styless/base-mysite.css">
+    <link rel="stylesheet" href="styless/large-mysite.css">
+    <script src="scripts/hamMenu.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/robot.svg" alt="My Site Logo">
+        <span>Ivan A. Suarez Page</span>
+        <button id="ham-bin" class="hamburguer"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+    </nav>
+    <div id="actualPage"></div>
+    <main>
+        <div class="aboutMe">
+            <h2>About Me</h2>
+            <p>
+                My name is Ivan. I am from Colombia but I'm living in ireland right now.
+                I got marriaged 7 years ago and we have one daughter. Her name is Ana Sofia.
+                I am currently working as an Maintenance technician. I love to spent my time with my family watching movies,
+                playing and traveling to others countries
+            </p>
+        </div>
+        <div class="studentPicture">
+            <h2 class="title">Student Photo</h2>
+            <img src="images/Fam-53.webp" alt="Family Photo" width="200" height="300">
+        </div>
+       <div class="courses">
+            <h2 class="title">Web Certificate courses</h2>
+
+            <div class="filter-buttons">
+                <button data-filter="all">All Courses</button>
+                <button data-filter="WDD">WDD Courses</button>
+                <button data-filter="CSE">CSE Courses</button>
+            </div> 
+
+            <ul id="courses-list"></ul>
+            <h1 id="amountOfCourses"></h1>
+            
+        </div>
+
+       
+    </main>
+    <footer>
+        <div class="logos">
+            <a href="https://github.com/IvanASuarez/wdd-131"><img src="images/github.svg" alt="GitHub Logo" width="50" height="50"></a>
+            <a href="https://www.linkedin.com/in/iv%C3%A1n-su%C3%A1rez/"><img src="images/linkedin.svg" alt="LinkedIn Logo" width="50" height="50"></a>
+            <a href="https://www.instagram.com/ivan.a.suarez?igsh=eTU0Z3NzN3JlMzZq"><img src="images/instagram.svg" alt="Instagram Logo" width="50" height="50"></a>
+            <a href="https://wa.me/353830056404"><img src="images/whatsapp.svg" alt="WhatsApp Logo" width="50" height="50"></a>
+        </div>
+
+        <P><span id="year"></span> &#128295; Ivan Suarez &#128295; Colombia</P>
+        <p id="full"></p>
+    </footer>
+</body>
+</html>

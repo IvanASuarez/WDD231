@@ -1,0 +1,252 @@
+/* SITE WIDE */
+
+*{
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 60px auto 44px;
+    padding: 10px 5px 10px 5px;
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  #0a2463;
+    padding-bottom: 7px;
+}
+
+/* ----------------------------------hamburguer menu------------------------------ */
+
+.hamburguer{
+    background: none;
+    border: none;
+    color: #0a2463;
+    cursor: pointer;
+}
+
+.hamburguer::before{
+    content: "\2630";
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburguer.show::before{
+    content: "\00D7";
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* -------------------------------navigation menu------------------------------- */
+
+.navigation{
+    display: none;
+}
+
+.navigation.show{
+    display:block;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a{
+    display: block;
+    padding: .8rem 5px;
+    color: #0a2463;
+    text-decoration: none;
+    border-top: solid 2px #0a2463;
+}
+
+.navigation li.current {
+    background-color: #9dc5bb;
+    border-radius: 0.5rem;
+}
+
+.navigation a:hover{
+    background-color: white;
+    border-radius: 0.5rem;
+    transition: 0.3s;   
+   
+}
+
+#actualPage{
+    text-align: left;
+    font-size: 2em;
+    color: #0a2463;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+/* -------------------------------footer------------------------------- */
+
+footer{
+    padding: 1rem 10px;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+footer p .year .full{
+    justify-content: justify;
+    font-size: 0.5rem;
+}
+
+footer .logos{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin: 0;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.logos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: #0a2463 dashed 1px;
+}
+
+.logos img{
+    width: 35px;
+    height: 35px;
+}
+
+.logos a:hover{
+    background-color: #9dc5bb;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+footer p{
+    font-size: 1.8rem;
+    color: #333333;
+    background-color: #9dc5bb;
+}
+
+/* ----------------------------------Main------------------------------ */
+
+main{
+    display: block;
+}
+
+.aboutMe h2{
+    background-color: #9dc5bb;
+    font-size: 1.8em;
+    color:#0a2463;
+    padding: 0.5em;
+    text-align: center;
+    width: auto;
+}
+
+.aboutMe P{
+    font-size: 1.2em;
+    color: #333333;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 20px;
+}
+
+.studentPicture .title{
+        background-color: #9dc5bb;
+        font-size: 1.8em;
+        color:#0a2463;
+        margin: 0;
+        border-radius: 5px;
+        padding: 0.5em;
+        text-align: center;
+}
+
+.studentPicture img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.courses{
+    display: block;
+}
+
+.courses h2{
+    background-color: #9dc5bb;
+    font-size: 1.8em;
+    color:#0a2463;
+    padding: 0.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.courses ul{
+    display: block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.courses li{
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333333;
+}
+
+/* -------------------------------Buttons------------------------------- */
+
+#amountOfCourses{
+        text-align: center;
+        font-size: 1.2em;
+        color: #0a2463;
+        margin-top: 20px;
+}
+
+.filter-buttons{
+    display: block;
+    text-align: center;
+}
+
+.filter-buttons button{
+    background-color: #9dc5bb;
+    color: #0a2463;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: #9dc5bb;
+    color: #0a2463;
+}
+
+.filter-buttons button.active {
+    background-color: #333333;
+    color: #9dc5bb;
+    border-color: #0a2463;
+}
