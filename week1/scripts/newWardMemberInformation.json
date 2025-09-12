@@ -1,0 +1,23 @@
+{
+    "familyName": "Doe",
+    "dateMoveInWard": "2023-10-01",
+    "membersFamily": 3,
+    "isVisitedByBishopric": true,
+    "individuals": [
+        {
+            "Name": "John Doe",
+            "gender": "Male",
+            "dateOfBirth": "1980-05-15"
+        },
+        {
+            "Name": "Jane Doe",
+            "gender": "Female",
+            "dateOfBirth": "1985-08-25"
+        },
+        {
+            "Name": "Jimmy Doe",
+            "gender": "Male",
+            "dateOfBirth": "2010-12-01"
+        }
+    ]
+}
