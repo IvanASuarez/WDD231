@@ -37,7 +37,7 @@
             "address": "Av. Calle 24A No. 59-42",
             "phone": [6013077000, 6016069400],
             "website": "https://www.argos.co/",
-            "imageurl": "data:image/png;base64,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",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Argos_logo.png",
             "membership": "Bronze"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Carrera 19 # 49 - 20",
             "phone": [6013537171],
             "website": "https://ecci.edu.co/",
-            "imageurl": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.acofi.edu.co%2Feiei2018%2Fpatrocinadores%2Funiversidad-ecci%2Flogo-universidad-ecci%2F&psig=AOvVaw1gKMipVO4ZPslEMlx3UG-O&ust=1758061936086000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiEs5rp248DFQAAAAAdAAAAABAE",
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH8r0TWaHcVuzsNzy6I1Xvq0CdQKO8sC6wEA&s",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Calle 90 # 11A - 27",
             "phone": [6016340000],
             "website": "https://amarilo.com.co/",
-            "imageurl": "https://i.pinimg.com/474x/20/a1/03/20a103d371e8437852609407c890a426.jpg",
+            "imageurl": "https://amarilopanama.com/wp-content/uploads/2022/03/logo-amarilo-png-150x150c.png",
             "membership": "Gold"
         },
         {
