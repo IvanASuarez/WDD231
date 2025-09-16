@@ -50,6 +50,7 @@
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         gap: 15px;
         margin: 40px;
+        align-items: stretch;
     }
     
     #cards section{
@@ -131,9 +132,26 @@
     }
 
     .card-info a:hover {
-    text-decoration: underline;
-}
+         text-decoration: underline;
+    }
 
- 
+    footer{
+        color: #F4F4F4;
+        background-color: #4A4A4A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .logos{
+        display: flex;
+        gap: 25px;
+        font-size: 5rem;
+    }
+
+
 
 }
