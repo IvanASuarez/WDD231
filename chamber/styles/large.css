@@ -1,0 +1,48 @@
+@media only screen and (min-width: 480px) {
+    .topBar{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    
+
+    header span{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        padding-top: 25px;
+
+    }
+
+    header img{
+        max-width: 100px;
+    }
+    .hamburguer {
+        display: none;
+      
+    }
+    .navigation{
+        position: static;
+        display: block;
+        width: auto;
+    }
+
+    .navigation ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .navigation a{
+        border: none;
+    }
+
+    .hero img {
+        width: 100%;  
+        height: auto;  /* mantiene proporción */
+        display: block;
+    }
+
+}

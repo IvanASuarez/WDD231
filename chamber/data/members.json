@@ -1,0 +1,69 @@
+{
+    "companies": [
+        {
+            "name": "Banco Davivienda",
+            "address": "Calle 28 # 13 A - 15",
+            "phone": [6013300000081965, 6013300000081965],
+            "website": "https://www.davivienda.com/wps/portal/personas",
+            "imageurl": "https://bucket.utua.com.br/img/2022/07/0a88bf20-design-sem-nome-14.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Hotel Tequendama",
+            "address": "Cra. 10 #27-51 Interior 150 piso 5",
+            "phone": [6017559000],
+            "website": "https://www.hotelestequendama.com.co/es/tequendama-suites-bogota",
+            "imageurl": "https://sociedadtequendama.com/wp-content/uploads/2023/10/2-1.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Ecopetrol",
+            "address": "Cr. 13 No. 36 - 24",
+            "phone": [3103158600],
+            "website": "https://www.ecopetrol.com.co/wps/portal/",
+            "imageurl": "https://www.ecopetrol.com.co/wps/wcm/connect/983892a8-850a-43aa-ba78-326f00b0d982/tarjeta.jpeg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-983892a8-850a-43aa-ba78-326f00b0d982-pvms7ip",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Avianca",
+            "address": "Av. El Dorado # 103 - 15",
+            "phone": [6014015000],
+            "website": "https://www.avianca.com/co/es/",
+            "imageurl": "https://logowik.com/content/uploads/images/avianca4784.logowik.com.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Cementos Argos",
+            "address": "Av. Calle 24A No. 59-42",
+            "phone": [6013077000, 6016069400],
+            "website": "https://www.argos.co/",
+            "imageurl": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092015/logoargos_color.png?itok=LcvAGu2e",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Escuela Colombiana de Carreras Industriales",
+            "address": "Carrera 19 # 49 - 20",
+            "phone": [6013537171],
+            "website": "https://ecci.edu.co/",
+            "imageurl": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.acofi.edu.co%2Feiei2018%2Fpatrocinadores%2Funiversidad-ecci%2Flogo-universidad-ecci%2F&psig=AOvVaw1gKMipVO4ZPslEMlx3UG-O&ust=1758061936086000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiEs5rp248DFQAAAAAdAAAAABAE",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Amarilo",
+            "address": "Calle 90 # 11A - 27",
+            "phone": [6016340000],
+            "website": "https://amarilo.com.co/",
+            "imageurl": "https://i.pinimg.com/474x/20/a1/03/20a103d371e8437852609407c890a426.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Huawei Technologies Colombia S.A.S",
+            "address": "Carrera 7 No. 71–21 Edificio Bancafe Torre A Piso 8",
+            "phone": [5713768600, 5713175520],
+            "website": "https://e.huawei.com/es/",
+            "imageurl": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072022/huawei-logo.png?z.kQ6_wtozzOsUwgOw_VNllc6YJOb3YS&itok=KIx1Z3Zr",
+            "membership": "Gold"
+        }
+
+    ]
+}

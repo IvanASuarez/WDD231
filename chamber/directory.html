@@ -18,6 +18,9 @@
     <link rel="manifest" href="images/bogota.webmanifest" />
     <!-- Scripts -->
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/hamburguerMenu.js" defer></script>
+    <script src="scripts/members.js" defer></script>
     <!--media tags Facebook-->
     <meta property="og:title" content="Bogota Chamber of commerce Project">
     <meta property="og:description" content="This is a Bogota chamber project">
@@ -25,10 +28,58 @@
     <meta property="og:image:alt" content="Bogota Chamber of commerce Logo">
     <meta property="og:url" content="https://ivanasuarez.github.io/WDD231/chamber/directory.html">
     <meta property="og:type" content="website">
-    
-
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="topBar">
+        <header>
+            <img src="images/bacata.png" alt="Representation of building to Bogota Chamber of commerce Logo">
+            <span>Bogotá City, Colombia</span>
+            <button id="ham-bin" class="hamburguer"></button>
+        </header>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="current"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="hero">
+        <picture>
+            <!--picture to small screens-->
+            <source 
+                media="(max-width: 480px)" 
+                srcset="images/banner-bogota-night.webp" 
+                type="image/webp">
+
+            <!--picture to big screens-->
+            <source 
+                src="images/banner-bogota-colombia.webp" 
+                type="image/webp" >
+            
+            <img
+                src="images/banner-bogota-colombia.webp" 
+                alt="Aerial view of Bogota city in Colombia" >  
+         </picture>
+    </div>
+    <main>
+        <div id="cards"></div>
+    </main>
+    
 </body>
+<footer>
+    <div class="logos">
+        <a href="https://m.facebook.com/visitbogota.co/about/"><img src="images/facebook_icon.svg" alt="Facebook Logo" width="50" height="50"></a>
+        <a href="https://m.youtube.com/channel/UC_qgv3BFpK3EhqBPL0iR2IQ?fbclid=PAT01DUAM0ixlleHRuA2FlbQIxMAABp6PnTQvTQWyqOR9Zip1KXlfWtWsT47Dttb3y46EYvqEz8tNu8za8guDYsnWO_aem_YU3xKJJc3CztGk4jOVth8A"><img src="images/youtube_icon.svg" alt="YouTube Logo" width="50" height="50"></a>
+        <a href="https://www.instagram.com/visitbogota.co?igsh=MTI0bmF6dGlndXFqeg=="><img src="images/instagram.svg" alt="Instagram Logo" width="50" height="50"></a>
+        <a href="https://visitbogota.co/es/?fbclid=IwVERTSAM0ihJleHRuA2FlbQIxMAABHgWHIYpJYyKeZIg_9E2U_n4R-EJdyAwR_4dcsQ-nsCz66Wzzw_HPdNZcMtn6_aem_MLz3lX9fRt4udSNIx-ehOQ&sfnsn=mo"><img src="images/IDT.svg" alt="IDT Logo" width="100" height="100"></a>
+    </div>
+
+    <P><span id="year"></span> &#128295; Ivan A. Suarez &#128295; Colombia WDD231 Class Project</P>
+    <p id="full"></p>
+</footer>
+
 </html>
