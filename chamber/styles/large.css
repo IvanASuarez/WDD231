@@ -41,8 +41,70 @@
 
     .hero img {
         width: 100%;  
-        height: auto;  /* mantiene proporción */
+        height: auto; 
         display: block;
     }
+
+    #cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 15px;
+        margin: 40px;
+    }
+    
+    #cards section{
+        margin: 0.5rem;
+        padding: 0;
+        background-color: #6FAF92;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        overflow: hidden;
+        box-shadow: 5px 5px 15px #666699;
+    }
+    
+    #cards h2{
+        font-size: 2rem;
+        background-color: #3B7A57;
+        color: #F4F4F4 ;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 20px;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .card-container img{
+        width: 120px;
+        max-width: 120px;
+        height: 120px;
+        object-fit: contain;
+        background-color: #6FAF92;
+    }
+
+    .card-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+        line-height: 1.5;
+        font-size: 1rem;
+        padding-right: 2rem;
+    }
+
+
+ 
 
 }
