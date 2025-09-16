@@ -50,8 +50,8 @@ const displayMembers = (members) => {
 
         let website = document.createElement('a');
         website.innerHTML = `${member.website}`;
-        website.setAttribute('href', member.website);
-        website.setAttribute('target', '_blank');
+        website.href = member.website;
+        website.target = '_blank';
 
 
         
