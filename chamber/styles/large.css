@@ -103,7 +103,36 @@
         font-size: 1rem;
         padding-right: 2rem;
     }
+    
+    .card-info p{
+        margin: 0.2rem 0;
+        color: #4A4A4A;
+        font-size: 1rem;
+        text-align: left;
+        width: 100%;
+        word-wrap: break-word;
+    }
 
+    .card-info strong {
+        font-weight: bold;
+        color: #4A4A4A;
+
+    }
+
+    .card-info a{
+        display: inline-block;
+        overflow-wrap: break-word;
+        word-wrap: break-all;
+        margin: 0.2rem 0;
+        color: #4A4A4A;
+        font-size: 1rem;
+        text-decoration: none;
+        max-width: 100%;
+    }
+
+    .card-info a:hover {
+    text-decoration: underline;
+}
 
  
 

@@ -25,7 +25,7 @@ const displayMembers = (members) => {
 
         // image
         let logo = document.createElement('img');
-        logo.setAttribute('src', member.imageurl);
+        logo.setAttribute('src', `${member.imageurl}?v=${new Date().getTime()}`);
         logo.setAttribute('alt', `Logo of ${member.name}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '300');
@@ -44,8 +44,12 @@ const displayMembers = (members) => {
         phone.innerHTML = `<strong>Phone:</strong> ${member.phone.join(', ')}`;
 
         // website
+        let websiteTitle = document.createElement('strong');
+        websiteTitle.textContent = 'Website:';
+
+
         let website = document.createElement('a');
-        website.innerHTML = `<strong>Website:</strong> ${member.website}`;
+        website.innerHTML = `${member.website}`;
         website.setAttribute('href', member.website);
         website.setAttribute('target', '_blank');
 
@@ -53,6 +57,7 @@ const displayMembers = (members) => {
         
         cardInfo.appendChild(address);
         cardInfo.appendChild(phone);
+        cardInfo.appendChild(websiteTitle);
         cardInfo.appendChild(website);
 
         cardContainer.appendChild(logo);
