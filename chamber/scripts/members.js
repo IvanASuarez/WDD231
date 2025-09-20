@@ -72,8 +72,13 @@ const displayMembers = (members) => {
 getMemberData();
 
 // Grid or List
-const buttons = document.querySelectorAll('.view-options button');
 const cardsContainer = document.getElementById('cards');
+const buttons = document.querySelectorAll('.view-options button');
+
+
+cardsContainer.classList.add('grid');
+
+
 buttons.forEach(button => {
     button.addEventListener('click',() =>{
         if(button.id === 'gridView'){

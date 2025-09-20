@@ -121,10 +121,47 @@ header span{
 }
 
 /* -------------------------------filter------------------------------- */
-    .view-options{
-        display: none;
-    }
+.view-options{
+    display: none;
+}
+
+.view-options button{
+    display: none;
+}
+
+
+
 /* -------------------------------cards------------------------------- */
+#cards.list { 
+        display: block;
+        margin: 15px auto;
+        width: 90%;
+        padding: 1rem;
+}
+
+#cards.list .card-container img { 
+    display: none; 
+}
+
+#cards.list .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 3rem;
+}
+
+#cards.list .card-info{
+        text-align: center;
+        width: 90%;
+}
+
+#cards.list .card-info,
+#cards h2 {
+    width: 100%; /* que se adapte al contenedor */
+    font-size: 1.2rem; /* texto más pequeño */
+}
 
 #cards{
         display: block;
