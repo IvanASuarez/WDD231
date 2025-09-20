@@ -1,6 +1,7 @@
 const url = 'https://ivanasuarez.github.io/WDD231/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 
+
 async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
@@ -53,8 +54,6 @@ const displayMembers = (members) => {
         website.href = member.website;
         website.target = '_blank';
 
-
-        
         cardInfo.appendChild(address);
         cardInfo.appendChild(phone);
         cardInfo.appendChild(websiteTitle);
@@ -71,3 +70,18 @@ const displayMembers = (members) => {
 }
 
 getMemberData();
+
+// Grid or List
+const buttons = document.querySelectorAll('.view-options button');
+const cardsContainer = document.getElementById('cards');
+buttons.forEach(button => {
+    button.addEventListener('click',() =>{
+        if(button.id === 'gridView'){
+            cardsContainer.classList.add('grid');
+            cardsContainer.classList.remove('list');
+        } else if(button.id === 'listView'){
+            cardsContainer.classList.add('list');
+            cardsContainer.classList.remove('remove');
+        }
+    });
+});
