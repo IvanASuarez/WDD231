@@ -218,16 +218,16 @@ header span{
 footer{
     color: #F4F4F4;
     background-color: #4A4A4A ;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 2rem;
     text-align: center;
     margin-top: 20px;
 }
 
 .contact-info{
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     text-align: left;
-    margin-left: 20px;
+
 }
 
 .contact-info h2{
@@ -249,11 +249,16 @@ footer{
     align-items: center;
     gap: 40px;
     margin-top: 10px;
-    margin-left: 35px;
+    min-height: 60px;
 }
 
 footer p{
     font-size: 1.2rem;
     margin-left: 20px;
+}
+
+#year, #full {
+    display: inline-block;
+    min-width: 50px; 
 }
 

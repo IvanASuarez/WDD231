@@ -16,6 +16,8 @@
     <link rel="icon" type="image/svg+xml" href="images/bogota.svg" />
     <link rel="shortcut icon" href="images/bogota.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/bogota-180x180.png" />
+
+    <!-- Scripts-->
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/hamburguerMenu.js" defer></script>
@@ -54,17 +56,21 @@
             <!--picture to small screens-->
             <source 
                 media="(max-width: 480px)" 
-                srcset="images/banner-bogota-night.webp" 
+                srcset="images/banner-bogota-night.webp"
+                sizes="(max-width: 480px) 360px" 
                 type="image/webp">
 
             <!--picture to big screens-->
             <source 
+                media="(min-width:481px)"
                 srcset="images/banner-bogota-colombia.webp" 
+                sizes="(max-width:900px) 720px, 1080px"
                 type="image/webp" >
             
             <img
                 srcset="images/banner-bogota-colombia.webp" 
-                alt="Aerial view of Bogota city in Colombia" >  
+                alt="Aerial view of Bogota city in Colombia" > 
+                 
          </picture>
     </div>
     <main>
