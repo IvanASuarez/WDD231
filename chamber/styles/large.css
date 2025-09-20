@@ -86,11 +86,8 @@
     }
 
     .card-container img{
-        width: 120px;
-        max-width: 120px;
-        height: 120px;
-        object-fit: contain;
-        background-color: white;
+        width: 100%;
+        height: auto;
     }
 
     .card-info{
@@ -102,7 +99,7 @@
         width: 100%;
         line-height: 1.5;
         font-size: 1rem;
-        padding-right: 2rem;
+        padding-right: 1rem;
     }
     
     .card-info p{

@@ -5,7 +5,7 @@
             "address": "Calle 28 # 13 A - 15",
             "phone": [601330000008, 601330000008],
             "website": "https://www.davivienda.com",
-            "imageurl": "https://bucket.utua.com.br/img/2022/07/0a88bf20-design-sem-nome-14.png",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/davivienda.webp",
             "membership": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Cra. 10 # 27-51 Interior 150 piso 5",
             "phone": [6017559000],
             "website": "https://www.hotelestequendama.com.co",
-            "imageurl": "https://sociedadtequendama.com/wp-content/uploads/2023/10/2-1.png",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/ecopetrol.webp",
             "membership": "Silver"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Cr. 13 No. 36 - 24",
             "phone": [3103158600],
             "website": "https://www.ecopetrol.com.co",
-            "imageurl": "https://www.ecopetrol.com.co/wps/wcm/connect/983892a8-850a-43aa-ba78-326f00b0d982/tarjeta.jpeg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-983892a8-850a-43aa-ba78-326f00b0d982-pvms7ip",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/ecopetrol.webp",
             "membership": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Av. El Dorado # 103 - 15",
             "phone": [6014015000],
             "website": "https://www.avianca.com",
-            "imageurl": "https://logowik.com/content/uploads/images/avianca4784.logowik.com.webp",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/avianca.webp",
             "membership": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Av. Calle 24A No. 59-42",
             "phone": [6013077000, 6016069400],
             "website": "https://www.argos.co/",
-            "imageurl": "https://www.anthesisgroup.com/co/wp-content/uploads/sites/16/2024/09/argos-logo.png",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/Argos.webp",
             "membership": "Bronze"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Carrera 19 # 49 - 20",
             "phone": [6013537171],
             "website": "https://ecci.edu.co/",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH8r0TWaHcVuzsNzy6I1Xvq0CdQKO8sC6wEA&s",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/ECCI.webp",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Calle 90 # 11A - 27",
             "phone": [6016340000],
             "website": "https://amarilo.com.co/",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz_wu_82qpDAJKW6bEoCdQFIOiqBSh5r6yyw&s",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/Amarilo.webp",
             "membership": "Gold"
         },
         {
@@ -61,7 +61,7 @@
             "address": "Carrera 7 No. 71–21 Edificio Bancafe Torre A Piso 8",
             "phone": [5713768600, 5713175520],
             "website": "https://e.huawei.com/es/",
-            "imageurl": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072022/huawei-logo.png?z.kQ6_wtozzOsUwgOw_VNllc6YJOb3YS&itok=KIx1Z3Zr",
+            "imageurl": "https://ivanasuarez.github.io/WDD231/chamber/images/huawei.webp",
             "membership": "Gold"
         }
 
