@@ -122,54 +122,9 @@ header span{
 
 /* -------------------------------filter------------------------------- */
     .view-options{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding: 20px;
+        display: none;
     }
-
-    .view-options button{
-        font-size: 1.5rem;
-        background-color: #3B7A57;
-        padding: 10px 15px;
-        border-radius: 5px;
-        border: none;
-        color: white;
-    }
-
-    .view-options button:hover {
-        background-color: white ;
-        border: 2px solid #2E5E42;
-        color: #2E5E42;
-    }
-
-
 /* -------------------------------cards------------------------------- */
-#cards.list { 
-        display: block;
-        margin: 15px auto;
-        width: 600px;
-        padding: 1rem;
-}
-
-#cards.list .card-container img { 
-    display: none; 
-}
-
-#cards.list .card-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-left: 3rem;
-}
-
-#cards.list .card-info{
-        text-align: center;
-        width: 100%;
-}
 
 #cards{
         display: block;
