@@ -146,7 +146,32 @@ header span{
 
 
 /* -------------------------------cards------------------------------- */
- #cards{
+#cards.list { 
+        display: block;
+        margin: 15px auto;
+        width: 600px;
+        padding: 1rem;
+}
+
+#cards.list .card-container img { 
+    display: none; 
+}
+
+#cards.list .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 3rem;
+}
+
+#cards.list .card-info{
+        text-align: center;
+        width: 100%;
+}
+
+#cards{
         display: block;
         margin: 20px;
         padding: 10px 0;
@@ -156,18 +181,6 @@ header span{
         justify-content: center;
 }
 
-#cards section{
-        margin: 0.5rem;
-        padding: 0;
-        background-color: white;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        text-align: center;
-        overflow: hidden;
-        box-shadow: 5px 5px 15px #3B7A57;
-}
 #cards h2{
         font-size: 2rem;
         background-color: #3B7A57;
