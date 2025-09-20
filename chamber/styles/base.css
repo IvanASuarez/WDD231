@@ -125,12 +125,6 @@ header span{
     display: none;
 }
 
-.view-options button{
-    display: none;
-}
-
-
-
 /* -------------------------------cards------------------------------- */
 #cards.list { 
         display: block;
