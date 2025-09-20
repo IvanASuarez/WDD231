@@ -134,20 +134,20 @@ header span{
 #cards section{
         margin: 0.5rem;
         padding: 0;
-        background-color: #6FAF92;
+        background-color: white;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: stretch;
         text-align: center;
         overflow: hidden;
-        box-shadow: 5px 5px 15px #666699;
+        box-shadow: 5px 5px 15px #3B7A57;
 }
 
 #cards h2{
         font-size: 2rem;
         background-color: #3B7A57;
-        color: #F4F4F4 ;
+        color: white ;
         padding: 20px;
         width: 100%;
         margin-bottom: 0.5rem;
@@ -168,7 +168,7 @@ header span{
         max-width: 120px;
         height: 120px;
         object-fit: contain;
-        background-color: #6FAF92;
+        background-color: white;
 }
 
     .card-info{
@@ -185,8 +185,8 @@ header span{
     
 .card-info p{
         margin: 0.2rem 0;
-        color: #4A4A4A;
-        font-size: 1rem;
+        color: #3B7A57;
+        font-size: 1.2rem;
         text-align: left;
         width: 100%;
         word-wrap: break-word;
@@ -194,7 +194,7 @@ header span{
 
 .card-info strong {
         font-weight: bold;
-        color: #4A4A4A;
+        color: #3B7A57;
 
 }
 
@@ -203,8 +203,8 @@ header span{
         overflow-wrap: break-word;
         word-wrap: break-all;
         margin: 0.2rem 0;
-        color: #4A4A4A;
-        font-size: 1rem;
+        color: #3B7A57;
+        font-size: 1.2rem;
         text-decoration: none;
         max-width: 100%;
 }

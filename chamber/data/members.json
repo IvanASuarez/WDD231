@@ -28,7 +28,7 @@
             "name": "Avianca",
             "address": "Av. El Dorado # 103 - 15",
             "phone": [6014015000],
-            "website": "https://www.avianca.com/co/es/",
+            "website": "https://www.avianca.com",
             "imageurl": "https://logowik.com/content/uploads/images/avianca4784.logowik.com.webp",
             "membership": "Silver"
         },
@@ -41,7 +41,7 @@
             "membership": "Bronze"
         },
         {
-            "name": "Escuela Colombiana de Carreras Industriales",
+            "name": "Universidad ECCI",
             "address": "Carrera 19 # 49 - 20",
             "phone": [6013537171],
             "website": "https://ecci.edu.co/",
