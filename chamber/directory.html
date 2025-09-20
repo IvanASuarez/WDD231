@@ -55,6 +55,7 @@
         <picture>
             <!--picture to small screens-->
             <source 
+                rel="preload"
                 media="(max-width: 480px)" 
                 srcset="images/banner-bogota-night.webp"
                 sizes="(max-width: 480px) 360px" 
@@ -62,15 +63,17 @@
 
             <!--picture to big screens-->
             <source 
+                rel="preload"
                 media="(min-width:481px)"
                 srcset="images/banner-bogota-colombia.webp" 
                 sizes="(max-width:900px) 720px, 1080px"
                 type="image/webp" >
             
             <img
+                rel="preload"
                 srcset="images/banner-bogota-colombia.webp" 
                 alt="Aerial view of Bogota city in Colombia" > 
-                 
+
          </picture>
     </div>
     <main>
