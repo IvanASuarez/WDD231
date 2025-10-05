@@ -9,8 +9,8 @@
     <title>Chamber Project</title>
     <!--Style Sheets
     -->
-    <link rel="stylesheet"  href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet"  href="styles/base-index.css">
+    <link rel="stylesheet" href="styles/large-index.css">
     <!-- Favicon -->
 
     <link rel="icon" type="image/png" href="images/bogota-96x96.png" sizes="96x96" />
@@ -21,7 +21,8 @@
     <!-- Scripts-->
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/hamburguerMenu.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 
     <!--media tags Facebook-->
     <meta property="og:title" content="Bogota Chamber of commerce Project">
@@ -41,32 +42,47 @@
 
         <nav id="nav-bar" class="navigation" aria-label="Open navigation menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li class="current"><a href="#">Directory</a></li>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </div>
-    
-    <div class="hero">
+    <main>
+        <div class="hero">
         <picture>
             <!--picture to small screens-->
             <source media="(max-width: 480px)" srcset="images/banner-bogota-night.webp" type="image/webp"> 
             <!--picture to big screens-->
             <source media="(min-width: 481px)" srcset="images/banner-bogota-colombia.webp" type="image/webp"> 
             <img src="images/banner-bogota-colombia.webp" alt="Aeriel view of Bogota"> 
-         </picture>
-    </div>
+        </picture>
+        <button class="callToAction">Keynote Tickets</button>
+        </div>
 
-    <div class="view-options">
-        <button id="gridView">Grid</button>
-        <button id="listView">List</button>
-    </div>
-    <main>
-        <div id="cards" ></div>
+        <section class="dashboard">
+            <div class="events">
+                <h2>Events</h2>
+                <p id="event-info"></p>
+            </div>
+
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div class="weather-container">
+                    <img id="weather-icon" src="" alt="weather icon">
+                    <ul id="description"></ul>
+                </div>
+            </div>
+
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <ul id="forecast-container"></ul>
+            </div>
+        </section>
+
+        <section id="spotlight" class="spotlight-container"></section>
     </main>
-    
 </body>
 <footer>
     <div class="contact-info">
@@ -85,4 +101,5 @@
     <P><span id="year"></span> &#128295; Ivan A. Suarez &#128295; Colombia WDD231 Class Project</P>
     <p id="full"></p>
 </footer>
+
 </html>

@@ -1,0 +1,325 @@
+*{
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #3B7A57;
+}
+
+header{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header img{
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  #F4F4F4;
+    margin-top: 55px;
+    margin-left: 1rem;
+    flex-grow: 1;
+}
+
+/* ----------------------------------hamburguer menu------------------------------ */
+
+.hamburguer{
+    background: none;
+    border: none;
+    color: #F4F4F4;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.hamburguer::before{
+    content: "\2630";
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburguer.show::before{
+    content: "\00D7";
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -------------------------------navigation menu------------------------------- */
+
+.navigation{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #3B7A57;
+    z-index: 999;
+}
+
+.navigation.show{
+    display:block;
+  
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a{
+    display: block;
+    padding: .8rem 5px;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+.navigation li.current {
+    background-color: #4A4A4A;
+    color: #F4F4F4;
+    border-radius: 0.5rem;
+    opacity: 30%;
+}
+
+    .navigation a:hover{
+    background-color: #F4F4F4;
+    color: #3B7A57;
+    border-radius: 0.5rem;
+    transition: 0.3s;   
+   
+}
+
+#actualPage{
+    text-align: left;
+    font-size: 2em;
+    color: #0a2463;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+/* -------------------------------picture------------------------------- */
+.hero img {
+    width: 100%;   
+    height: auto;  
+    display: block;
+}
+
+.callToAction{
+        position: relative;
+        bottom: 100px;
+        left: 200px;
+        font-size: 1.5rem;
+        padding: 10px;
+        border: 2px solid #2E5E42;
+        border-radius: 5px;
+        background-color:#3B7A57;
+        color: white;
+        font-weight: bold;
+}
+
+.callToAction:hover{
+        background-color: white;
+        color: #44633F;
+        border: 2px solid #2E5E42;
+
+}
+ /* -------------------------------weather------------------------------- */
+.dashboard{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard div{
+    box-shadow: 5px 5px 15px #3B7A57;
+    border-radius: 5px;
+}
+
+.dashboard div h2{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #2E5E42;
+    color: white;
+    border-radius: 5px;
+}
+
+.dashboard .current-weather{
+    margin-top: 20px;
+}
+
+.dashboard .current-weather .weather-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.dashboard .current-weather .weather-container ul{
+    list-style: none;  
+}
+
+.dashboard .current-weather .weather-container li{
+    list-style: none; 
+    font-size: 1.2rem; 
+    color: #44633F;
+    padding: 2px;
+    margin: 2px;
+}
+
+.dashboard .current-weather .weather-container img{
+    width: auto;
+    background-color: #3B7A57;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.dashboard .events{
+    height: 250px;
+}
+
+/* -------------------------------forecost------------------------------- */
+.weather-forecast{
+
+    display: block;
+    margin-top: 20px;
+}
+
+.weather-forecast li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 20px;
+    color:#44633F;
+}
+
+/* -------------------------------cards------------------------------- */
+
+.spotlight-container{
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    padding: 1rem;
+}
+
+.spotlight-container .card-container{
+
+    margin-top: 20px;
+}
+
+.spotlight-container h2{
+    font-size: 2rem;
+    background-color: #3B7A57;
+    color: white ;
+    padding: 20px;
+    width: 100%;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.card-info p{
+    margin: 0.2rem 0;
+    color: #44633F;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.card-info strong {
+    font-weight: bold;
+    color: #44633F;
+}
+
+.card-info a{
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-all;
+    margin: 0.2rem 0;
+    color: #44633F;
+    font-size: 1.5rem;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.card-container img{
+    margin-left: 40px;
+    width: 80%;
+    
+}
+
+/* -------------------------------footer------------------------------- */
+footer{
+    color: #F4F4F4;
+    background-color: #4A4A4A ;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info{
+    margin: 0 0 10px 0;
+    text-align: left;
+
+}
+
+.contact-info h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color:#F4F4F4;
+}
+
+.contact-info p, .contact-info a{
+    font-size: 1rem;
+    margin: 5px 0;
+    color:#F4F4F4;
+    text-decoration: none;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    min-height: 60px;
+}
+
+footer p{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+#year, #full {
+    display: inline-block;
+    min-width: 50px; 
+}
+

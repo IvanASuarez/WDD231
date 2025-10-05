@@ -155,6 +155,26 @@
         color: #9dc5bb;
         border-color: #0a2463;
     }
+    /* ------------------------------dialog------------------------------- */
+    dialog{
+        width: 400px;
+        height: 300px;
+        background-color: #eef4f2;
+        border: 1px solid #333333;
+        border-radius: 5px;
+    }
+
+    ::backdrop{
+        background-color: rgb(255 255 255/ 50%);
+    }
+
+    dialog button{
+        position: absolute;
+        top: 23px;
+        right: 23px;
+        padding: .5rem 1rem;
+        border: 1px solid rgb(#333333 / 10%);
+    }
     /* -------------------------------footer------------------------------- */
    
 }
